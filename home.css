@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/* =========================NAVIGATION==================================== */
+.newcontain{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+/* ==========================END NAVIGATION============================================ */
+
+
+#profileflex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 90px;
+    /* margin-bottom: 10px; */
+}
+#profileimage{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 15px;
+    padding: 4px;
+    border: 2px solid gold;
+}
+#profileimage img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+#profilehandle input{
+    text-transform: capitalize;
+     border: none;
+     padding: 10px;
+    color: rgb(124, 91, 8);
+    border-radius: 20px;
+}
+
+.txtarea{
+    margin-top: 90px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: none;
+}
+
+.txtarea input{
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+.txtarea p{
+    background-color: gold;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 50%;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.cardcontainerflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+.entirecontainer{
+  background-color: white;
+    width: 250px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+
+.profileflex {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.profileimage{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 15px;
+    padding: 4px;
+    border: 2px solid gold;
+}
+.profileimage img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.profilehandle p{
+    text-transform: capitalize;
+    font-size: 16px;
+    color: goldenrod;
+}
+.username{
+    margin-top: 3px;
+}
+.imagecontainer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.imagecontainer img{
+    width: 100%;
+    height: 100%;
+}
+.heartlike{
+   margin-top: 5px;
+   margin-left: 10px;
+}
+
+.heartlike i{
+    font-size: 30px;
+}
+@media(max-width: 400px){
+    .entirecontainer{
+        background-color: white;
+          width: 170px;
+          margin-top: 30px;
+          padding-bottom: 15px;
+      }
+      .imagecontainer{
+        position: relative;
+        width: 100%;
+        height: 250px;
+    }
+}
+@media(max-width: 355px){
+    .entirecontainer{
+        background-color: white;
+          width: 160px;
+          margin-top: 30px;
+          padding-bottom: 15px;
+      }
+      .imagecontainer{
+        position: relative;
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media(max-width: 320px){
+    .entirecontainer{
+        background-color: white;
+          width: 250px;
+          margin-top: 30px;
+          padding-bottom: 15px;
+      }
+      .imagecontainer{
+        position: relative;
+        width: 100%;
+        height: 250px;
+    }
+}
+
+.loveflex{
+    display: flex;
+    justify-content: space-between;
+}
+.nw{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border: 1px solid black;
+    width: 3.125rem;
+    height: 1.375rem;
+    font-weight: 500;
+    color: #0e1111;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.love{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+}
+.shoecontent{
+    padding: 10px;
+}
+
+.shoename{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.shoename h4{
+    font-weight: bold;
+    font-size: 18px;
+}
+.description{
+    margin-bottom: 20px;
+}
+
+/* ======================== */
+
+.mobnav{
+  position: fixed;
+  bottom: 0;
+  padding: 15px 0;
+  background: white;
+  z-index: 1000;
+  width: 100%;
+}
+.mobnavflex{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.mobnavflex a{
+  text-decoration: none;
+  color: rgb(107, 104, 104);
+}
+
+.mobhome, .mobcollection, .mobreleasedate, .mobexplore, .mobprofile {
+  text-align: center;
+}
+
+.mobhome a{
+  color: black;
+}
+
+.mobimg{
+width: 23px;
+height: 23px;
+margin: 0 auto;
+border-radius: 50%;
+}
+.mobimg img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
